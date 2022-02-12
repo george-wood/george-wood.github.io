@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | George Wood</title>
+    <link>https://gwood.me/tags/</link>
+      <atom:link href="https://gwood.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://gwood.me/media/icon_hu175a232152e93f3c6bae4698ffed542c_28254_512x512_fill_lanczos_center_3.png</url>
+      <title>Tags</title>
+      <link>https://gwood.me/tags/</link>
+    </image>
+    
+  </channel>
+</rss>

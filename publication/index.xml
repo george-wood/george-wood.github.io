@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | George Wood</title>
+    <link>https://gwood.me/publication/</link>
+      <atom:link href="https://gwood.me/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gwood.me/media/icon_hu175a232152e93f3c6bae4698ffed542c_28254_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://gwood.me/publication/</link>
+    </image>
+    
+    <item>
+      <title>Revised findings for &#34;Procedural justice training reduces police use of force and complaints against officers&#34;</title>
+      <link>https://gwood.me/publication/sx2021/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://gwood.me/publication/sx2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Causal Effect of Social Distancing on the Spread of SARS-CoV-2</title>
+      <link>https://gwood.me/publication/sx2020/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://gwood.me/publication/sx2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Procedural justice training reduces police use of force and complaints against officers</title>
+      <link>https://gwood.me/publication/pnas2020/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://gwood.me/publication/pnas2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building community resilience to prevent and mitigate community impact of gun violence: conceptual framework and intervention design</title>
+      <link>https://gwood.me/publication/bmj2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://gwood.me/publication/bmj2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The network structure of police misconduct</title>
+      <link>https://gwood.me/publication/socius2019/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://gwood.me/publication/socius2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reducing gunshot victimization in high-risk social networks through direct and spillover effects</title>
+      <link>https://gwood.me/publication/nhb2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://gwood.me/publication/nhb2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The structure and vulnerability of a drug trafficking collaboration network</title>
+      <link>https://gwood.me/publication/sn2017/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://gwood.me/publication/sn2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
