@@ -22,7 +22,11 @@
 
 
 
+
   
+
+
+
 
 
 
@@ -37,8 +41,8 @@
   
     
       
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap&display=swap" media="print" onload="this.media='all'">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -248,15 +252,56 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.3f9ed4fb18945ecb92ca6409071b2455.css" />
+  <link rel="stylesheet" href="/css/wowchemy.1ce2bd11e280dd5e5f5f1d7dfb88fd8c.css" />
 
   
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-52693588-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-52693588-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
 
   
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
 
   
 
@@ -273,8 +318,8 @@
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu175a232152e93f3c6bae4698ffed542c_28254_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu175a232152e93f3c6bae4698ffed542c_28254_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu14f3a383fff159aee081c189427b1d37_16453_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu14f3a383fff159aee081c189427b1d37_16453_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://gwood.me/publication/sx2021/" />
 
@@ -301,8 +346,8 @@
   <meta property="og:site_name" content="George Wood" />
   <meta property="og:url" content="https://gwood.me/publication/sx2021/" />
   <meta property="og:title" content="Revised findings for &#34;Procedural justice training reduces police use of force and complaints against officers&#34; | George Wood" />
-  <meta property="og:description" content="Wood et al. (2020) studied the rollout of a procedural justice training program in the Chicago Police Department and found large and statistically significant impacts on complaints and sustained complaints against police officers and police use of force. This document describes a subtle statistical problem that led the magnitude of those estimates to be inflated. We then re-analyze the data using a methodology that corrects for this problem. The re-analysis provides less strong conclusions about the effectiveness of the training than the original study&#39;:&#39; although the point estimates for most outcomes and specifications are negative and of a meaningful magnitude, the confidence intervals typically include zero or very small effects. On the whole, we interpret the data as providing suggestive evidence that procedural justice training reduced the use of force, but no statistically significant evidence for a reduction in complaints or sustained complaints." /><meta property="og:image" content="https://gwood.me/media/icon_hu175a232152e93f3c6bae4698ffed542c_28254_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://gwood.me/media/icon_hu175a232152e93f3c6bae4698ffed542c_28254_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Wood et al. (2020) studied the rollout of a procedural justice training program in the Chicago Police Department and found large and statistically significant impacts on complaints and sustained complaints against police officers and police use of force. This document describes a subtle statistical problem that led the magnitude of those estimates to be inflated. We then re-analyze the data using a methodology that corrects for this problem. The re-analysis provides less strong conclusions about the effectiveness of the training than the original study&#39;:&#39; although the point estimates for most outcomes and specifications are negative and of a meaningful magnitude, the confidence intervals typically include zero or very small effects. On the whole, we interpret the data as providing suggestive evidence that procedural justice training reduced the use of force, but no statistically significant evidence for a reduction in complaints or sustained complaints." /><meta property="og:image" content="https://gwood.me/media/icon_hu14f3a383fff159aee081c189427b1d37_16453_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://gwood.me/media/icon_hu14f3a383fff159aee081c189427b1d37_16453_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -349,7 +394,7 @@
     "name": "George Wood",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://gwood.me/media/icon_hu175a232152e93f3c6bae4698ffed542c_28254_192x192_fill_lanczos_center_3.png"
+      "url": "https://gwood.me/media/icon_hu14f3a383fff159aee081c189427b1d37_16453_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "Wood et al. (2020) studied the rollout of a procedural justice training program in the Chicago Police Department and found large and statistically significant impacts on complaints and sustained complaints against police officers and police use of force. This document describes a subtle statistical problem that led the magnitude of those estimates to be inflated. We then re-analyze the data using a methodology that corrects for this problem. The re-analysis provides less strong conclusions about the effectiveness of the training than the original study':' although the point estimates for most outcomes and specifications are negative and of a meaningful magnitude, the confidence intervals typically include zero or very small effects. On the whole, we interpret the data as providing suggestive evidence that procedural justice training reduced the use of force, but no statistically significant evidence for a reduction in complaints or sustained complaints."
@@ -383,47 +428,10 @@
   
   
   
-  <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
+  <script src="/js/wowchemy-init.min.ced4c4e0190cf57ce42494e355f2bdf6.js"></script>
 
   
 
-
-<aside class="search-modal" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
-        
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
-        aria-label="Search...">
-        
-      </div>
-
-      
-      
-
-      
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
-        
-      </div>
-
-    </section>
-  </div>
-</aside>
 
 
 
@@ -628,11 +636,8 @@
 
         
         
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
 
+        
         
         
         <li class="nav-item dropdown theme-dropdown">
@@ -666,6 +671,10 @@
   </div>
 
   <div class="page-body">
+    
+    
+    
+
     
 
 
@@ -729,7 +738,7 @@
     
       
     
-    January 2021
+    January, 2021
   </span>
   
 
@@ -737,8 +746,6 @@
 
   
 
-  
-  
   
   
   
@@ -846,8 +853,6 @@
     <div class="article-style"></div>
 
     
-
-
 
 
 
@@ -998,11 +1003,6 @@
 
 
 
-  
-  
-
-
-
 
 
   </div>
@@ -1033,6 +1033,11 @@
 
 
 
+  
+
+
+
+
   <p class="powered-by">
     
     
@@ -1051,32 +1056,6 @@
     </div>
     
   </div>
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
 
       
 
@@ -1104,6 +1083,8 @@
         
         <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
         
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
       
 
     
@@ -1118,23 +1099,6 @@
     
     
     
-      
-      <script id="search-hit-fuse-template" type="text/x-template">
-        <div class="search-hit" id="summary-{{key}}">
-          <div class="search-hit-content">
-            <div class="search-hit-name">
-              <a href="{{relpermalink}}">{{title}}</a>
-              <div class="article-metadata search-hit-type">{{type}}</div>
-              <p class="search-hit-description">{{snippet}}</p>
-            </div>
-          </div>
-        </div>
-      </script>
-      
-        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
-      
-    
 
     
     
@@ -1145,14 +1109,6 @@
     
 
     
-    
-      
-      
-      
-      
-      
-      
-      
     
 
     
@@ -1164,7 +1120,7 @@
 
     
     
-      <script src="/js/wowchemy-headroom.1cb9e2fc8399acee94eab837265b73bf.js" type="module"></script>
+      <script src="/js/wowchemy-headroom.79343bd00de25e04f03b6af2819f8643.js" type="module"></script>
     
     
     
@@ -1172,13 +1128,42 @@
     
     
     
-      
-      
     
-    
-    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
+    <script src="/en/js/wowchemy.min.c2bd97aee41f8afb60c30c968d6a1c23.js"></script>
 
     
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.ee00aa4e09ee62617fe2dc15bfcb3f7b.js" type="module"></script>
 
 
 
