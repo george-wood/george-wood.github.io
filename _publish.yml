@@ -1,0 +1,3 @@
+- source: project
+  quarto-pub:
+    - url: "https://george-wood.github.io"
