@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: George Wood
+  google-analytics: "UA-XXXXXXXX"
+  page-navigation: true
+  search: false
+  navbar:
+    background: primary
+    # title: false
+    # right:
+    #   - text: "George Wood"
+    #     file: index.qmd
+    left:
+      - text: "About"
+        file: about.qmd
+      - text: "Projects"
+        file: projects.qmd
+      - text: "Publications"
+        file: publications.qmd
+      - text: "Contact"
+        file: contact.qmd
+
+format:
+  html:
+    theme:
+      light: [cosmo, scss/light.scss] # flatly, pulse, zephyr
+    # css: custom.css
+    toc: false
+
+editor: source
+
