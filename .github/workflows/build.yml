@@ -21,6 +21,8 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          GITHUB_EMAIL: george.wood@nyu.edu
+          GITHUB_USERNAME: george-wood
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         timeout-minutes: 1
