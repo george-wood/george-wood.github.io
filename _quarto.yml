@@ -1,6 +1,9 @@
 project:
   type: website
 
+execute:
+  freeze: auto
+
 website:
   title: George Wood
   google-analytics: "UA-XXXXXXXX"
@@ -8,10 +11,6 @@ website:
   search: false
   navbar:
     background: primary
-    # title: false
-    # right:
-    #   - text: "George Wood"
-    #     file: index.qmd
     left:
       - text: "About"
         file: about.qmd
@@ -30,4 +29,3 @@ format:
     toc: false
 
 editor: source
-
