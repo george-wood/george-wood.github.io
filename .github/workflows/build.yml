@@ -18,7 +18,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v1
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
