@@ -28,8 +28,12 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          publish-dir: './_site'
+          production-branch: main
           deploy-message: 
             'Deploy from GHA: ${{ github.event.pull_request.title || github.event.head_commit.message }} (${{ github.sha }})'
+          enable-pull-request-comment: true #  Comment on pull request
+          enable-commit-comment: true # Comment on GitHub commit
+          enable-commit-status: true # GitHub commit status
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
-          
