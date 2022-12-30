@@ -1,0 +1,20 @@
+{
+  "index.qmd": {
+    "index.html": "ac17e06a"
+  },
+  "about.qmd": {
+    "about.html": "2f89c04c"
+  },
+  "projects.qmd": {
+    "projects.html": "2f480b73"
+  },
+  "contact.qmd": {
+    "contact.html": "b5916c75"
+  },
+  "publications.qmd": {
+    "publications.html": "917a23cd"
+  },
+  "publications/procedural_justice.qmd": {
+    "procedural_justice.html": "a38169bd"
+  }
+}

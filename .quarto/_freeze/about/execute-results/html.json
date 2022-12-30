@@ -1,0 +1,14 @@
+{
+  "hash": "9c8024950ed4fccd32dc57519f4cca1a",
+  "result": {
+    "markdown": "---\ntitle: \"About\"\n---\n\n\nI am currently Moore-Sloan Faculty Fellow in the Center for Data Science at New York University.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n# test",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
