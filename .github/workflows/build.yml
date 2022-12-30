@@ -3,13 +3,11 @@ on:
   push:
     branches: main
 
-name: Quarto Publish
+name: Render and Publish Website
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
@@ -21,8 +19,9 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          GITHUB_EMAIL: george.wood@nyu.edu
-          GITHUB_USERNAME: george-wood
+          publish-dir: './_site'
+          production-branch: main
+          github-token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        timeout-minutes: 1
+        timeout-minutes: 2
