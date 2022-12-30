@@ -1,0 +1,136 @@
+// Body
+$body-bg:                     #ffffff !default;
+$body-color:                  #000000 !default;
+$body-text-align:             left !default;
+
+// Links
+//
+// Style anchor elements.
+$link-color:                  lighten($body-color, 50%) !default;
+$link-decoration:             none !default;
+$link-shade-percentage:       50% !default;
+$link-hover-color:            shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-decoration:       null !default;
+
+//$stretched-link-pseudo-element:           after !default;
+//$stretched-link-z-index:                  1 !default;
+
+// Code
+$code-block-bg:               darken($body-bg, 3%) !default;
+$code-color:                  lighten($body-color, 10%) !default;
+$code-bg:                     darken($body-bg, 0%) !default;
+
+$card-border-color:           $body-color !default;
+$form-select-border-color:    $body-color !default;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Inter:wght@300;400;500;600&display=swap');
+$font-family-sans-serif:      "Inter" !default;
+$font-family-monospace:       "B612 Mono" !default;
+
+
+$font-size-root:              null !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .85 !default;
+$font-size-lg:                $font-size-base * 1.25 !default;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
+$font-weight-semibold:        600 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+$font-weight-base:            $font-weight-normal !default;
+
+$line-height-base:            1.5 !default;
+$line-height-sm:              1.25 !default;
+$line-height-lg:              2 !default;
+
+// Headings
+$h1-font-size:                $font-size-base * 1.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size
+) !default;
+
+// Spacers
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) !default;
+
+// Headings Variables
+$headings-font-weight:        300 !default;
+$headings-margin-bottom:      $spacer * .5 !default;
+$headings-line-height:        1.33 !default;
+
+// Navigation
+$navbar-bg:                   $body-bg !default;
+
+$nav-link-font-size:          $font-size-sm !default;
+$nav-link-font-weight:        600 !default;
+$nav-link-color:              $body-color !default;
+
+$nav-tabs-link-active-color:        $body-bg !default;
+$nav-tabs-link-active-bg:           $body-bg !default;
+
+$navbar-brand:                $body-color !default;
+$navbar-brand-font-size:      $font-size-sm !default;
+
+// Enforced
+.nav-link {
+  color: $nav-link-color !important;
+  line-height: 1 !important;
+}
+
+.navbar-brand {
+  padding-bottom: 0.55rem !important;
+  font-weight: 600 !important;
+}
+
+
+
+
+
+/*-- scss:rules --*/
+
+/*
+.card-footer {
+    color: darken($body-bg, 30%);
+    background-color: darken($body-bg, 5%);
+}
+
+.navbar-brand {
+    font-size: $font-size-sm;
+    font-weight: $headings-font-weight;
+}
+.navbar-brand > img {
+    max-height: 40px;
+}
+*/
+
+
+/*
+.light-mode { display: block; }
+.dark-mode { display: none; }
+
+body {
+  font-size: $font-size-base;
+}
+*/

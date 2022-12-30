@@ -1,0 +1,55 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# socr
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
+
+The goal of socr is to provide a general framework for modeling tracking and event data in soccer. 
+
+## Installation
+
+Install the development version of socr:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("george-wood/socr")
+```
+
+## Usage
+
+An example using the [Metrica Sports sample tracking data](https://github.com/metrica-sports/sample-data):
+
+```{r example}
+library(socr)
+
+data(metrica_tracking)
+
+# coerce to a tracking object
+trk <- as_tracking(metrica_tracking)
+print(trk)
+
+# coerce to a position object
+p <- as_position(trk[time == 10])
+print(p, n = 5)
+
+# calculate displacement between players
+displacement(p,
+             from = c("player1", "player2"),
+             to = c("player1", "player2", "ball"))
+```
+

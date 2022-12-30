@@ -1,0 +1,11 @@
+/*-- scss:defaults --*/
+$white:    #fff !default;
+$h1-font-size:          1.6rem !default;
+$headings-font-weight:  500 !default;
+$web-font-path: "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap";
+$navbar-light-color: $white !default;
+
+/*-- scss:rules --*/
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
