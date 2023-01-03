@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>George Wood</title>
+<title>George Wood -</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,11 +29,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -65,7 +68,7 @@ ga('send', {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -86,7 +89,7 @@ ga('send', {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html">
+    <a class="nav-link active" href="./software.html" aria-current="page">
  <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
@@ -103,25 +106,34 @@ ga('send', {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<section id="im-a-moore-sloan-faculty-fellow-in-the-center-for-data-science-at-new-york-university-where-i-work-on-causal-inference-in-observational-settings-and-teach-responsible-data-science.-find-out-more." class="level1">
-<h1>I’m a Moore-Sloan Faculty Fellow in the Center for Data Science&nbsp;at New York University, where I work on causal inference in observational settings and teach Responsible Data Science. <a href="./about.html">Find out more</a>.</h1>
+<main class="content column-page" id="quarto-document-content">
 
 
+
+<div class="grid">
+<!--
+::: {.g-col-4}
+![](images/headshot_bw.jpg){fig-align="left" width="100%"}<br>
+**`keepr`**<br>
+A package for importing, wrangling, and restructuring soccer tracking and event data<br>
+[GitHub]()
+:::
+-->
+<section id="socr" class="level3 g-col-6">
+<h3 class="anchored" data-anchor-id="socr">socr</h3>
+<p><img src="images/socr.png" class="img-fluid" style="width:100.0%" data-fig-align="left"><br></p>
+<p>A framework for modeling soccer tracking and event data<br> <i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/george-wood/socr">GitHub</a></p>
 </section>
-</main></div>
-    </div>
-  </div>
 </div>
- <!-- /main -->
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -142,6 +154,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
