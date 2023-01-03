@@ -6,6 +6,7 @@ page-layout: full
 
 
 ::: {.grid}
+
 <!--
 ::: {.g-col-4}
 ![](images/headshot_bw.jpg){fig-align="left" width="100%"}<br>
@@ -16,9 +17,12 @@ A package for importing, wrangling, and restructuring soccer tracking and event 
 -->
 
 ::: {.g-col-6}
+### socr
+
 ![](images/socr.png){fig-align="left" width="100%"}<br>
-**`socr`**<br>
+
 A framework for modeling soccer tracking and event data<br>
-[GitHub]()
+{{< fa brands github >}} [GitHub](https://github.com/george-wood/socr)
 :::
+
 :::

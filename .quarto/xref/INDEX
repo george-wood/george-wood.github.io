@@ -16,5 +16,8 @@
   },
   "publications/procedural_justice.qmd": {
     "procedural_justice.html": "a38169bd"
+  },
+  "software.qmd": {
+    "software.html": "115f83d1"
   }
 }

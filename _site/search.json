@@ -25,6 +25,20 @@
     "href": "about.html",
     "title": "George Wood",
     "section": "",
-    "text": "Nuffield College, University of Oxford\nPhD in Sociology\n\nResearch Areas: Social Networks, Statistical Inference on Networks, Gun Violence\nFunded by Economic and Social Research Council\n\n\n\n2017\n\n\n\n\nSt Cross College, University of Oxford\nMSc in Sociology\n\n\n2012\n\n\n\n\nUniversity of Sheffield\nBA in Sociology with First-Class Honours\n\n\n2011\n\n\n\n\n\n\n\nNew York University\nMoore-Sloan Faculty Fellow, Center for Data Science\n\n\n2020–present\n\n\n\n\nNorthwestern University\nPostdoctoral Fellow, Institute for Policy Research\n\nSupervised by Andrew Papachristos\n\n\n\n2019–2020\n\n\n\n\nYale University\nPostdoctoral Associate, Institution for Social and Policy Studies\n\nSupervised by Andrew Papachristos\n\n\n\n2017–2019\n\n\n\n\n\nNew York University\n\n\nDS-GA 1017 and DS-UA 202 Responsible Data Science\n\nTechnical course that tackles issues of data quality, algorithmic fairness,  transparency of data and algorithms, ethics, privacy, and data protection.\nFind out more about the course here.\n\n\n\n2021, 2022\n\n\n\n\nDS-UA 111 Data Science for Everyone\n\nFlagship course at the Center for Data Science.\nDesigned for students without prior statistics or programming experience.\n\n\n\n2021, 2022"
+    "text": "I’m a data scientist and R developer with a background in social science. My work focuses on causal inference in observational settings, with application to criminal justice and gun violence. I have a longstanding interest in sports analytics and developing data science tools.\n \n\nEducation\n\n\nNuffield College, University of Oxford\nPhD in Sociology\n\nResearch Areas: Social Networks, Statistical Inference on Networks, Gun Violence\nFunded by Economic and Social Research Council\n\n\n\n2017\n\n\n\n\nSt Cross College, University of Oxford\nMSc in Sociology\n\n\n2012\n\n\n\n\nUniversity of Sheffield\nBA in Sociology with First-Class Honours\n\n\n2011\n\n\n\n\nExperience\n\n\nNew York University\nMoore-Sloan Faculty Fellow, Center for Data Science\n\n\n2020–present\n\n\n\n\nNorthwestern University\nPostdoctoral Fellow, Institute for Policy Research\n\nSupervised by Andrew Papachristos\n\n\n\n2019–2020\n\n\n\n\nYale University\nPostdoctoral Associate, Institution for Social and Policy Studies\n\nSupervised by Andrew Papachristos\n\n\n\n2017–2019\n\n\n\n\nTeaching\nNew York University\n\n\nDS-GA 1017 and DS-UA 202 Responsible Data Science\n\nTechnical course that tackles issues of data quality, algorithmic fairness,  transparency of data and algorithms, ethics, privacy, and data protection.\nFind out more about the course here.\n\n\n\n2021, 2022\n\n\n\n\nDS-UA 111 Data Science for Everyone\n\nFlagship course at the Center for Data Science.\nDesigned for students without prior statistics or programming experience.\n\n\n\n2021, 2022"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "George Wood",
+    "section": "",
+    "text": "socr\n\nA framework for modeling soccer tracking and event data  GitHub"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "George Wood",
+    "section": "",
+    "text": "I’m a Moore-Sloan Faculty Fellow in the Center for Data Science at New York University, where I work on causal inference in observational settings and teach Responsible Data Science. Find out more."
   }
 ]

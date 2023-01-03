@@ -15,8 +15,8 @@ website:
     left:
       - text: "About"
         file: about.qmd
-      - text: "Projects"
-        file: projects.qmd
+      - text: "Software"
+        file: software.qmd
       - text: "Publications"
         file: publications.qmd
       - text: "Contact"
