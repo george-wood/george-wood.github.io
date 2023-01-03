@@ -7,6 +7,9 @@ execute:
 
 website:
   title: George Wood
+  description: "Personal website of George Wood"
+  site-url: https://george-wood.github.io
+  repo-url: https://github.com/george-wood/george-wood.github.io
   google-analytics: "UA-XXXXXXXX"
   page-navigation: true
   search: false
