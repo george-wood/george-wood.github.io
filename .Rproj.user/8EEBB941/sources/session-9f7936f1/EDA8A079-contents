@@ -1,7 +1,0 @@
----
-# image: "images/headshot_square.jpg"
-about:
-  template: solana # jolla, solana, broadside, trestles, marquee
----
-
-# I'm a Moore-Sloan Faculty Fellow in the Center for Data Science at New York University, where I work on causal inference in observational settings and teach Responsible Data Science. [Find out more](about.qmd).

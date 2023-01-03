@@ -1,4 +1,6 @@
 *.DS_Store
 .quarto/
-
 /.quarto/
+.Rproj.user
+.Rproj.user/
+.Rhistory
