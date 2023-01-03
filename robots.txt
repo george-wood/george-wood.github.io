@@ -1,1 +1,1 @@
-Sitemap: https://george-wood.github.io/sitemap.xml
+Sitemap: george-wood.github.io/sitemap.xml
