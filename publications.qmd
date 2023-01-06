@@ -17,7 +17,7 @@ pagetitle: "Publications - George Wood"
 G Wood, TR Tyler, AV Papachristos, J Roth, PHC Sant'Anna
 :::
 ::: {.g-col-3}
-2020\
+2021\
 *SocArXiv*
 :::
 
