@@ -1,24 +1,29 @@
 ---
 title: ""
-comments: false
-page-layout: full
+pagetitle: "Software - George Wood"
 ---
 
-::: grid
-::: g-col-6
-![](images/socr.png)
+\ 
+
+::: {.column-screen-inset}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-sm-10 .g-col-md-9 .g-col-lg-6 .g-col-xl-6 .g-col-xxl-6}
+
+::: {.d-flex .flex-column}
+
+::: {}
+![](images/socr_wide.jpg)
+:::
+
+::: {}
 **socr**\
 A framework for modeling soccer tracking and event data\
 {{< fa brands github >}} [GitHub](https://github.com/george-wood/socr)
 :::
 
-```{=html}
-<!--
-::: {.g-col-4}
-![](images/socr.png)
-**keepr** [{{< fa brands github >}}](https://github.com/george-wood/keepr)\
-A package for importing, wrangling, and restructuring soccer tracking and event data
 :::
--->
-```
+:::
+:::
 :::

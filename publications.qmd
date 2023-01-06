@@ -1,67 +1,96 @@
 ---
 title: ""
-page-layout: full
-#listing:
-#  contents: publications
-#  type: table
-#  filter-ui: false
-#  sort-ui: false
-#  fields: [Year, title]
+pagetitle: "Publications - George Wood"
 ---
 
 \ 
 
-::: {.d-flex .justify-content-between}
-::: {}
-`06`&nbsp;&nbsp;&nbsp;&nbsp; [Revised Findings for Procedural Justice](https://osf.io/preprints/socarxiv/xf32m/)
+::: {.column-screen-inset}
+
+::: {.grid}
+
+::: {.g-col-1}
+6
 :::
-::: {.text-end}
-SocArxiv&nbsp;&nbsp;&nbsp;&nbsp; 2021
+::: {.g-col-8}
+[Revised findings for *Procedural justice training reduces police use of force and complaints against officers*](https://osf.io/preprints/socarxiv/xf32m/)\
+G Wood, TR Tyler, AV Papachristos, J Roth, PHC Sant'Anna
 :::
+::: {.g-col-3}
+2020\
+*SocArXiv*
 :::
 
-::: {.d-flex .justify-content-between}
-::: {}
-`05`&nbsp;&nbsp;&nbsp;&nbsp; [Procedural Justice](https://www.pnas.org/doi/full/10.1073/pnas.1920671117)
+
+::: {.g-col-1}
+5
 :::
-::: {.text-end}
-PNAS&nbsp;&nbsp;&nbsp;&nbsp; 2020
+::: {.g-col-8}
+[Procedural justice training reduces police use of force and complaints against officers](https://www.pnas.org/doi/full/10.1073/pnas.1920671117)\
+G Wood, TR Tyler, AV Papachristos
 :::
+::: {.g-col-3}
+2020\
+*Proceedings of the National Academy of Sciences*
 :::
 
-::: {.d-flex .justify-content-between}
-::: {}
-`04`&nbsp;&nbsp;&nbsp;&nbsp; [Network Structure of Police Misconduct](https://journals.sagepub.com/doi/full/10.1177/2378023119879798)
+
+::: {.g-col-1}
+4
 :::
-::: {.text-end}
-Socius&nbsp;&nbsp;&nbsp;&nbsp; 2020
+::: {.g-col-8}
+[Building community resilience to prevent and mitigate community impact of gun violence: conceptual framework and intervention design](https://bmjopen.bmj.com/content/10/10/e040277)\
+EA Wang, C Riley, G Wood, A Greene, N Horton, M Williams, P Violano, RM Brase, L Brinkley-Rubinstein, AV Papachristos, B Roy
 :::
+::: {.g-col-3}
+2020\
+*BMJ Open*
 :::
 
-::: {.d-flex .justify-content-between}
-::: {}
-`03`&nbsp;&nbsp;&nbsp;&nbsp; [Gun Violence & Community Resilience](https://bmjopen.bmj.com/content/10/10/e040277)
+
+::: {.g-col-1}
+3
 :::
-::: {.text-end}
-BMJ Open&nbsp;&nbsp;&nbsp;&nbsp; 2019
+::: {.g-col-8}
+[The network structure of police misconduct](https://journals.sagepub.com/doi/full/10.1177/2378023119879798)\
+G Wood, D Roithmayr, AV Papachristos
 :::
+::: {.g-col-3}
+2019\
+*Socius*
 :::
 
-::: {.d-flex .justify-content-between}
-::: {}
-`02`&nbsp;&nbsp;&nbsp;&nbsp; [Reducing Gunshot Victimization](https://www.nature.com/articles/s41562-019-0688-1)
+
+::: {.g-col-1}
+2
 :::
-::: {.text-end}
-Nature Human Behaviour&nbsp;&nbsp;&nbsp;&nbsp; 2019
+::: {.g-col-8}
+[Reducing gunshot victimization in high-risk social networks through direct and spillover effects](https://www.nature.com/articles/s41562-019-0688-1)\
+G Wood, AV Papachristos
 :::
+::: {.g-col-3}
+2019\
+*Nature Human Behaviour*
 :::
 
-::: {.d-flex .justify-content-between}
-::: {}
-`01`&nbsp;&nbsp;&nbsp;&nbsp; [Drug Trafficking Networks](https://www.sciencedirect.com/science/article/abs/pii/S0378873316302702)
+
+::: {.g-col-1}
+1
 :::
-::: {.text-end}
-Social Networks&nbsp;&nbsp;&nbsp;&nbsp; 2017
+::: {.g-col-8}
+[The structure and vulnerability of a drug trafficking collaboration network](https://www.sciencedirect.com/science/article/abs/pii/S0378873316302702)\
+G Wood
 :::
+::: {.g-col-3}
+2017\
+*Social Networks*
 :::
+
+
+:::
+
+:::
+
+
+
 

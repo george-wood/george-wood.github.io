@@ -1,13 +1,20 @@
 ---
 # about:
   # template: jolla, solana, broadside, trestles, marquee
-page-layout: full
+pagetitle: "George Wood"
 ---
+
+
+::: {.column-screen-inset}
 
 ::: {.grid}
 
-::: {.g-col-8}
-# I'm a Moore-Sloan Faculty Fellow in the Center for Data Science at New York University, where I work on causal inference in observational settings and teach Responsible Data Science. [Find out more](about.qmd).
+::: {.g-col-12 .g-col-md-9 .g-col-lg-8 .g-col-xl-7 .g-col-xxl-5}
+
+# Welcome --- I'm a Moore-Sloan Faculty Fellow in the Center for Data Science at New York University, where I work on causal inference in observational settings and teach Responsible Data Science. [Find out more](about.qmd).
+
+:::
+
 :::
 
 :::
