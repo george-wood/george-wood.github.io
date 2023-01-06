@@ -15,6 +15,7 @@ website:
   search: false
   navbar:
     background: primary
+    collapse-below: "sm"
     left:
       - text: "About"
         file: about.qmd

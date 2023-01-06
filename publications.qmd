@@ -1,5 +1,6 @@
 ---
 title: ""
+page-layout: full
 #listing:
 #  contents: publications
 #  type: table

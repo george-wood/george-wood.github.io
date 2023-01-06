@@ -1,10 +1,20 @@
 ---
 title: ""
+page-layout: full
 ---
 
 
-![](images/headshot_bw3.jpg){fig-align="left" width="30%"}<br>
+::: grid
 
-Find me here<br> [GitHub](https://github.com/george-wood)<br> [LinkedIn](https://www.linkedin.com/in/george-wood-72a262a9/)
+::: {.g-col-12 .g-col-md-4}
+![](images/headshot_bw3.jpg)
 
-Or contact me<br> [georgebwood\@gmail.com](mailto:georgebwood@gmail.com)
+Find me here\
+[GitHub](https://github.com/george-wood)\
+[LinkedIn](https://www.linkedin.com/in/george-wood-72a262a9/)
+
+Or contact me\
+[georgebwood\@gmail.com](mailto:georgebwood@gmail.com)
+:::
+
+:::
