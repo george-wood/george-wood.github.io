@@ -2,7 +2,9 @@
 # about:
   # template: jolla, solana, broadside, trestles, marquee
 pagetitle: "George Wood"
+page-layout: full
 ---
+
 
 
 ::: {.column-screen-inset}
