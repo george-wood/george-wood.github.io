@@ -20,7 +20,7 @@ pagetitle: "About - George Wood"
 **Nuffield College, University of Oxford**  
 PhD in Sociology
 
-- Research Areas: Social Networks, Statistical Inference on Networks, Gun Violence
+- Research Areas: Computational Social Science, Statistical Inference on Networks, Gun Violence
 - Funded by Economic and Social Research Council
 :::
 ::: {.flex-shrink-0}
@@ -68,8 +68,6 @@ Moore-Sloan Faculty Fellow, Center for Data Science
 ::: {.flex-grow-1}
 **Northwestern University**  
 Postdoctoral Fellow, Institute for Policy Research
-
-- Supervised by Andrew Papachristos
 :::
 ::: {.flex-shrink-0}
 2019--2020
@@ -81,8 +79,6 @@ Postdoctoral Fellow, Institute for Policy Research
 ::: {.flex-grow-1}
 **Yale University**  
 Postdoctoral Associate, Institution for Social and Policy Studies
-
-- Supervised by Andrew Papachristos
 :::
 ::: {.flex-shrink-0}
 2017--2019
@@ -120,11 +116,29 @@ Postdoctoral Associate, Institution for Social and Policy Studies
 
 ### Programming
 
-- R
-- Python
-- SQL
-- Git
-- Docker
+:::: {.columns}
+
+::: {.column width="30%"}
+Languages 
+
+Tools
+
+Frameworks
+
+Practices
+:::
+
+::: {.column width="70%"}
+R, Python, SQL
+
+Git, GitHub Actions, Docker
+
+Shiny, Quarto, BigQuery
+
+Automated workflows, CI/CD, version control, unit testing, packaging, parallel programming
+:::
+
+::::
 
 
 :::
