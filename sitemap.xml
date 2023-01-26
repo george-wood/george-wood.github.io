@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://george-wood.github.io/about.html</loc>
-    <lastmod>2023-01-06T20:29:29.699Z</lastmod>
-  </url>
-  <url>
-    <loc>https://george-wood.github.io/publications.html</loc>
-    <lastmod>2023-01-06T20:29:30.347Z</lastmod>
-  </url>
-  <url>
     <loc>https://george-wood.github.io/index.html</loc>
-    <lastmod>2023-01-06T20:29:30.643Z</lastmod>
+    <lastmod>2023-01-26T15:57:32.010Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/software.html</loc>
-    <lastmod>2023-01-06T20:29:30.939Z</lastmod>
+    <lastmod>2023-01-26T15:57:32.702Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/publications.html</loc>
+    <lastmod>2023-01-26T15:57:32.998Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/contact.html</loc>
-    <lastmod>2023-01-06T20:29:31.211Z</lastmod>
+    <lastmod>2023-01-26T15:57:33.274Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/about.html</loc>
+    <lastmod>2023-01-26T15:57:33.562Z</lastmod>
   </url>
 </urlset>
