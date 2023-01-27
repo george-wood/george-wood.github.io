@@ -15,7 +15,7 @@ pagetitle: "Software - George Wood"
 
 -   [socr]()<br>
     Framework for working with football tracking and event data in a generic way<br>
-    [GitHub](https://github.com/george-wood/socr)
+    [GitHub](https://github.com/george-wood/socr) | [Slides](assets/socr.html)
 
 :::
 :::
