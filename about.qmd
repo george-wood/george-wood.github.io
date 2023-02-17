@@ -133,7 +133,7 @@ R, Python, SQL
 
 Git, GitHub Actions, Docker
 
-Shiny, Quarto, BigQuery
+Shiny, Quarto, Apache Arrow, BigQuery
 
 Automated workflows, CI/CD, version control, unit testing, packaging, parallel programming
 :::

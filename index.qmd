@@ -13,7 +13,7 @@ page-layout: full
 
 ::: {.g-col-12 .g-col-md-9 .g-col-lg-8 .g-col-xl-7 .g-col-xxl-5}
 
-# Welcome --- I'm a Moore-Sloan Faculty Fellow in the Center for Data Science at New York University, where I work on causal inference in observational settings and teach Responsible Data Science. [Find out more](about.qmd).
+# Welcome --- I'm Moore-Sloan Faculty Fellow in the Center for Data Science at New York University, where I work on causal inference in observational settings and teach Responsible Data Science. [Find out more](about.qmd).
 
 :::
 
