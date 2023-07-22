@@ -1,0 +1,10 @@
+---
+title: "The Causal Effect of Social Distancing on the Spread of SARS-CoV-2"
+subtitle: "P. Sharkey, G. Wood"
+description: "SocArXiv"
+date: "05-19-2020"
+doi: https://doi.org/10.31235/osf.io/hzj7a
+categories: [causal inference, covid]
+---
+
+To what degree does social distancing have a causal effect on the spread of SARS-CoV-2? To generate causal evidence, we show that week to week changes in weather conditions provided a natural experiment that altered daily travel and movement outside the home, and thus affected social distancing in the first several weeks when Covid-19 began to spread in many U.S. counties. Using aggregated mobile phone location data and leveraging changes in social distancing driven by weekly weather conditions, we provide the first causal evidence on the effect of social distancing on the spread of SARS-CoV-2. Results show that a 1 percent increase in distance traveled leads to an 8.1 percent increase in new cases per capita in the following week, and a 1 percent increase in non-essential visits leads to a 6.9 percent increase in new cases per capita in the following week. Results are stronger in densely populated counties and close to zero in less densely populated counties.

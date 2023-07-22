@@ -1,33 +1,37 @@
 ---
 title: ""
-pagetitle: "About - George Wood"
+# image: misc/info/photo_wood.jpg
 ---
 
-::: {.column-screen-inset}
+::: {#hero-heading}
 
-::: {.grid}
+:::
 
-::: {.g-col-12 .g-col-md-12 .g-col-lg-10 .g-col-xl-9 .g-col-xxl-6}
+## **Research Interests**
 
-# I'm a data scientist and R developer with a background in computational social science. My work focuses on causal inference in observational settings, with application to criminal justice and gun violence. I have a longstanding interest in sports analytics and developing data science tools.
+- Fairness in criminal justice, especially policing
+- Social inequality and discrimination
+- Causal inference
+- Data science
 
-\ 
-
-### Education
+## **Education**
 
 ::: {.d-flex .justify-content-between}
 ::: {.flex-grow-1}
 **Nuffield College, University of Oxford**  
 PhD in Sociology
 
-- Research Areas: Computational Social Science, Statistical Inference on Networks, Gun Violence
+- Research Areas: 
+    - Computational Social Science
+    - Statistical Inference on Networks
+    - Gun Violence
+    - Policing
 - Funded by Economic and Social Research Council
 :::
 ::: {.flex-shrink-0}
 2017
 :::
 :::
-
 
 ::: {.d-flex .justify-content-between}
 ::: {.flex-grow-1}
@@ -39,7 +43,6 @@ MSc in Sociology
 :::
 :::
 
-
 ::: {.d-flex .justify-content-between}
 ::: {.flex-grow-1}
 **University of Sheffield**  
@@ -50,8 +53,7 @@ BA in Sociology with First-Class Honours
 :::
 :::
 
-
-### Experience
+## **Experience**
 
 ::: {.d-flex .justify-content-between}
 ::: {.flex-grow-1}
@@ -59,88 +61,84 @@ BA in Sociology with First-Class Honours
 Moore-Sloan Faculty Fellow, Center for Data Science
 :::
 ::: {.flex-shrink-0}
-2020--present
+2020—2023
 :::
 :::
-
 
 ::: {.d-flex .justify-content-between}
 ::: {.flex-grow-1}
 **Northwestern University**  
 Postdoctoral Fellow, Institute for Policy Research
+
+- Supervised by Andrew Papachristos
+
 :::
 ::: {.flex-shrink-0}
-2019--2020
+2019—2020
 :::
 :::
-
 
 ::: {.d-flex .justify-content-between}
 ::: {.flex-grow-1}
 **Yale University**  
 Postdoctoral Associate, Institution for Social and Policy Studies
+
+- Supervised by Andrew Papachristos
+
 :::
 ::: {.flex-shrink-0}
-2017--2019
+2017—2019
 :::
 :::
 
-### Teaching
+## **Teaching**
 
 **New York University**
 
-::: {.d-flex .justify-content-between}
-::: {.flex-grow-1}
-`DS-GA 1017` and `DS-UA 202` Responsible Data Science
-
-- Technical course that covers data quality, algorithmic fairness, transparency of data and algorithms, ethics, privacy, and data protection.
-- Find out more about the course [here](https://dataresponsibly.github.io/rds/).
-:::
-::: {.flex-shrink-0}
-2021, 2022
-:::
-:::
-
+*Undergraduate*
 
 ::: {.d-flex .justify-content-between}
 ::: {.flex-grow-1}
-`DS-UA 111` Data Science for Everyone 
+DS-UA 202 Responsible Data Science
 
-- Flagship course at the Center for Data Science.
-- Designed for students without prior statistics or programming experience.
+- Technical course that covers data quality, algorithmic fairness, transparency of data and algorithms, ethics, privacy, and data protection
+- Find out more about the course [here](https://dataresponsibly.github.io/rds/)
 :::
 ::: {.flex-shrink-0}
-2021, 2022
+2021—2022
 :::
 :::
 
-### Programming
+::: {.d-flex .justify-content-between}
+::: {.flex-grow-1}
+DS-UA 111 Data Science for Everyone
 
-:::: {.columns}
-
-::: {.column width="30%"}
-Languages 
-
-Tools
-
-Frameworks
-
-Practices
+- Flagship course at the Center for Data Science
+- Designed for students without prior statistics or programming experience
 :::
-
-::: {.column width="70%"}
-R, Python, SQL
-
-Git, GitHub Actions, Docker
-
-Shiny, Quarto, Apache Arrow, BigQuery
-
-Automated workflows, CI/CD, version control, unit testing, packaging, parallel programming
-:::
-
-::::
-
-
+::: {.flex-shrink-0}
+2021—2022
 :::
 :::
+
+*Postgraduate*
+
+::: {.d-flex .justify-content-between}
+::: {.flex-grow-1}
+DS-GA 1017 Responsible Data Science
+
+- Co-taught with Julia Stoyanovich
 :::
+::: {.flex-shrink-0}
+2021—2022
+:::
+:::
+
+**University of Oxford**
+
+As Teaching Assistant:
+
+  - Quantitative Methods in Politics and Sociology
+  - Introduction to Statistics
+  - Sociological Analysis
+  - Sociology of Post-Industrial Societies

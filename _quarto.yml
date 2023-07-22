@@ -1,36 +1,54 @@
 project:
   type: website
-  output-dir: _site
-
-execute:
-  freeze: auto
-
+  output-dir: docs
+  
 website:
-  title: George Wood
-  description: "Personal website of George Wood"
+  page-navigation: true
+  title: "George Wood"
   site-url: https://george-wood.github.io
   repo-url: https://github.com/george-wood/george-wood.github.io
-  google-analytics: "G-LY905F0SQ6"
-  page-navigation: true
-  search: false
-  navbar:
-    background: primary
-    collapse-below: "sm"
-    left:
+  repo-actions: [edit, issue]
+  
+  page-footer: 
+    left: "&copy; Copyright 2023, George Wood"
+    right: 
+      - icon: github
+        href: https://github.com/george-wood/george-wood.github.io
+      - icon: twitter
+        href: https://twitter.com/_georgewood
+
+  navbar: 
+    background: "#A9CCE3"
+    search: true
+    right: 
+      - text: "Research"
+        href: research/research.qmd
+      
+      - text: "Teaching"
+        href: teaching/teaching.qmd
+        
+      - text: "R Packages"
+        href: rpkg/rpkg.qmd
+        
       - text: "About"
-        file: about.qmd
-      - text: "Software"
-        file: software.qmd
-      - text: "Publications"
-        file: publications.qmd
-      - text: "Contact"
-        file: contact.qmd
+        href: about.qmd
+           
+      #- text: "Talks"
+      #  href: talks/talks.qmd
+
+      #- text: "Notes"
+      #  href: blog/blog.qmd
+
+      #- text: "About"
+      #  menu: 
+          #- text: "About me"
+          #  href: about_me.qmd
+          #- text: "CV"
+          #  href: misc/info/cv_george_wood.pdf
 
 format:
   html:
-    theme:
-      light: [cosmo, scss/light.scss] # flatly, pulse, zephyr
-    # css: custom.css
-    toc: false
+    theme: [cosmo, styles.scss]
+    mainfont: "Inter"
 
-editor: source
+

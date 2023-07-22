@@ -1,0 +1,28 @@
+[
+  {
+    "listing": "/research/research.html",
+    "items": [
+      "/research/bmj2020/index.html",
+      "/research/pnas2020/index.html",
+      "/research/nhb2019/index.html",
+      "/research/sx2021/index.html",
+      "/research/sx2020/index.html",
+      "/research/socius2019/index.html",
+      "/research/sn2017/index.html",
+      "/research/ssm2023/index.html"
+    ]
+  },
+  {
+    "listing": "/teaching/teaching.html",
+    "items": [
+      "/teaching/ds4e/index.html",
+      "/teaching/rds/index.html"
+    ]
+  },
+  {
+    "listing": "/rpkg/rpkg.html",
+    "items": [
+      "/rpkg/folk/index.html"
+    ]
+  }
+]

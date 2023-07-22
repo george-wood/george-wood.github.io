@@ -1,0 +1,10 @@
+---
+title: "Reducing gunshot victimization in high-risk social networks through direct and spillover effects"
+subtitle: "G. Wood, A. V. Papachristos"
+description: "Nature Human Behaviour"
+date: "08-19-2019"
+doi: https://doi.org/10.1038/s41562-019-0688-1
+categories: [causal inference, networks, gun violence, intervention]
+---
+
+More than 60,000 people are victimized by gun violence each year in the United States. A large share of victims cluster in bounded and identifiable social networks. Despite a growing number of violence reduction programmes that leverage networks to broaden programmatic effects, there is little evidence that reductions in victimization are achieved through spillover effects on the peers of participants. This study estimates the direct and spillover effects of a gun violence field intervention in Chicago. Using a quasi-experimental design, we test whether a desistance-based programme reduced gunshot victimization among 2,349 participants. The study uses co-arrest network data to further test spillover effects on 6,132 non-participants. Direct effects were associated with a 3.2-percentage point reduction in victimization among seeds over two years, while potential spillover was associated with a 1.5-percentage point reduction among peers. Findings suggest that peer influence and the structure of networks might be leveraged to amplify gun violence reduction efforts.

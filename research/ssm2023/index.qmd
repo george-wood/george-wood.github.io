@@ -1,0 +1,10 @@
+---
+title: "We know what's going on in our community: A qualitative analysis identifying community assets that deter gun violence"
+subtitle: "A. Parsons, T. D. Harvey, S. D. Andrade, N. Horton, L. Brinkley-Rubenstein, G. Wood, L. W. Holaday, C. Riley, V. T. Spell, A. V. Papachristos, E. A. Wang, B. Roy"
+description: "SSM"
+date: "06-01-2023"
+doi: http://dx.doi.org/10.1136/bmjopen-2020-040277
+categories: [gun violence, intervention]
+---
+
+The USA has the highest rate of community gun violence of any developed democracy. There is an urgent need to develop feasible, scalable and community-led interventions that mitigate incident gun violence and its associated health impacts. Our community-academic research team received National Institutes of Health funding to design a community-led intervention that mitigates the health impacts of living in communities with high rates of gun violence.

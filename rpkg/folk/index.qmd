@@ -1,0 +1,12 @@
+---
+title: "folk"
+description: "Datasets for benchmarking machine learning algorithms"
+author: "George Wood"
+categories: [fairness, machine learning, data science]
+github: asds
+# image: ""
+---
+   
+`folk` provides easy access to datasets that can be used to benchmark
+machine learning algorithms. The goal of folk is to facilitate and
+encourage work on fair machine learning among R users. The package was inspired by folktables Python package. Read more [here](https://github.com/george-wood/folk).

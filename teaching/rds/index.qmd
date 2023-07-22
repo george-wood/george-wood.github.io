@@ -1,0 +1,27 @@
+---
+title: |
+  Responsible Data Science
+subtitle: "[Course Website](https://dataresponsibly.github.io/rds22/)"
+image: "respons.png"
+description: "Technical course that covers data quality, algorithmic fairness, transparency of data and algorithms, ethics, privacy, and data protection."
+date: ""
+categories: [course, fairness, data science, programming, statistics]
+reading-time: "SDS"
+type: statistics
+---
+
+## Overview
+
+The first wave of data science focused on accuracy and efficiency – on what we can do with data. The second wave focuses on responsibility – on what we should and shouldn’t do. Irresponsible use of data science can cause harm on an unprecedented scale. Algorithmic changes in search engines can sway elections and incite violence; irreproducible results can influence global economic policy; models based on biased data can legitimize and amplify racist policies in the criminal justice system; algorithmic hiring practices can silently and scalably violate equal opportunity laws, exposing companies to lawsuits and reinforcing the feedback loops that lead to lack of diversity. Therefore, as we develop and deploy data science methods, we are compelled to think about the effects these methods have on individuals, population groups, and on society at large.
+
+Responsible Data Science was developed by [Julia Stoyanovich](https://engineering.nyu.edu/faculty/julia-stoyanovich). With Julia, I launched and taught the undergraduate version of RDS in 2021 with an enrollment of 65 students. In 2022, I led the course as primary instructor with an expanded enrollment of 128 students. Julia and I co-taught the graduate version of RDS in 2021.
+
+## Modules:
+
+- Fairness
+- Data Science Lifecycle
+- Data Protection
+- Transparency and Interpretability
+
+The course is taught in Python.
+
