@@ -7,7 +7,7 @@ website:
   title: "George Wood"
   site-url: https://george-wood.github.io
   repo-url: https://github.com/george-wood/george-wood.github.io
-  # repo-actions: [edit, issue]
+  repo-actions: []
   
   page-footer: 
     left: "&copy; Copyright 2023, George Wood"
