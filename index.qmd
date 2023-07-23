@@ -6,12 +6,12 @@ about:
   template: trestles
   image-shape: round
   links:
-    - icon: twitter
-      text: _georgewood
-      href: https://twitter.com/_georgewood
     - icon: github
       text: george-wood
       href: https://github.com/george-wood
+    - icon: twitter
+      text: _georgewood
+      href: https://twitter.com/_georgewood
 ---
 
 ::: {#hero-heading}
