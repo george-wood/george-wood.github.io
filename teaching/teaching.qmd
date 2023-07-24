@@ -6,7 +6,7 @@ listing:
     field-display-names:
       title: "Course"
     max-description-length: 500
-    image-height: 140px
+    image-height: 120px
     fields: [image, title, description]
     contents: 
       - rds

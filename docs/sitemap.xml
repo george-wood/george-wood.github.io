@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://george-wood.github.io/index.html</loc>
-    <lastmod>2023-07-24T08:02:50.402Z</lastmod>
+    <lastmod>2023-07-24T08:42:10.976Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/about.html</loc>
-    <lastmod>2023-07-21T16:54:26.649Z</lastmod>
+    <lastmod>2023-07-24T08:42:28.728Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/research/research.html</loc>
-    <lastmod>2023-07-24T08:01:02.474Z</lastmod>
+    <lastmod>2023-07-24T08:42:23.857Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/about_me.html</loc>
@@ -18,14 +18,18 @@
   </url>
   <url>
     <loc>https://george-wood.github.io/teaching/teaching.html</loc>
-    <lastmod>2023-07-24T08:02:47.947Z</lastmod>
+    <lastmod>2023-07-24T08:42:25.576Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/rpkg/rpkg.html</loc>
-    <lastmod>2023-07-24T08:00:10.193Z</lastmod>
+    <lastmod>2023-07-24T08:42:26.981Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/teaching/'6+3[rds/index.html</loc>
     <lastmod>2023-07-24T08:00:05.636Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/teaching/ds4e/index.html</loc>
+    <lastmod>2023-07-24T08:27:33.937Z</lastmod>
   </url>
 </urlset>

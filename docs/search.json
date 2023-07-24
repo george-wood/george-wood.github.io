@@ -96,5 +96,12 @@
     "title": "Responsible Data Science",
     "section": "Modules:",
     "text": "Modules:\n\nFairness\nData Science Lifecycle\nData Protection\nTransparency and Interpretability\n\nThe course is taught in Python."
+  },
+  {
+    "objectID": "teaching/ds4e/index.html",
+    "href": "teaching/ds4e/index.html",
+    "title": "Data Science for Everyone",
+    "section": "",
+    "text": "Topics:\n\nDatabases and rectangular data\nProgramming in Python\nSampling, distributions, uncertainty\nRegression\nTypes of data\nScientific thinking"
   }
 ]
