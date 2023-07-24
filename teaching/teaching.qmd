@@ -19,9 +19,9 @@ listing:
 
 <style>
 .listing-title {
-    min-width: 200px;
+    min-width: 200px !important;
   & a {
-    word-break: normal;
+    word-break: normal !important;
   }
 }
 </style>

@@ -21,7 +21,9 @@ listing:
       - sn2017
     type: table
     filter-ui: true
-    sort-ui: true
+    sort: "date desc"
+    sort-ui: [date, title, author]
+    categories: true
     grid-item-border: false
 ---
 
