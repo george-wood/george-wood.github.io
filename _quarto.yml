@@ -50,6 +50,6 @@ format:
   html:
     theme: [cosmo, styles.scss]
     mainfont: "Inter"
-    fontsize: 1.2em
+    fontsize: 1.1em
 
 
