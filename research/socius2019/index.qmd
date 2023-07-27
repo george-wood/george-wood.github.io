@@ -1,6 +1,6 @@
 ---
 title: |
-  **The Network Structure of Police Sisconduct**
+  **The Network Structure of Police Misconduct**
 subtitle: |
   G. Wood, D. Roithmayr, and A. V. Papachristos ⸱ *Socius*
 description: |
