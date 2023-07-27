@@ -1,10 +1,13 @@
 ---
-title: "The network structure of police misconduct"
-subtitle: "G. Wood, D. Roithmayr, A. V. Papachristos"
-description: "Socius"
+title: |
+  **The network structure of police misconduct**
+subtitle: |
+  G. Wood, D. Roithmayr, and A. V. Papachristos ⸱ *Socius*
+description: |
+  Conventional explanations of police misconduct generally adopt a microlevel focus on deviant officers or a macrolevel focus on the top-down organization of police departments. Between these levels are social networks of misconduct. This study recreates these networks using data on 16,503 complaints and 15,811 police officers over a six-year period in Chicago. We examine individual-level factors associated with receiving a complaint, the basic properties of these misconduct networks, and factors related to officer co-naming in complaints. We find that the incidence of police misconduct is associated with attributes including race, age, and tenure and that almost half of police officers are connected in misconduct ties in broader networks of misconduct. We also find that certain dyadic factors, especially seniority and race, strongly predict network ties and the incidence of group misconduct. Our results provide actionable information regarding possible ways to leverage the co-complaint network structure to reduce misconduct.
 date: "10-10-2019"
 doi: https://doi.org/10.1177/2378023119879798
 categories: [policing, criminal justice, networks]
 ---
 
-Conventional explanations of police misconduct generally adopt a microlevel focus on deviant officers or a macrolevel focus on the top-down organization of police departments. Between these levels are social networks of misconduct. This study recreates these networks using data on 16,503 complaints and 15,811 police officers over a six-year period in Chicago. We examine individual-level factors associated with receiving a complaint, the basic properties of these misconduct networks, and factors related to officer co-naming in complaints. We find that the incidence of police misconduct is associated with attributes including race, age, and tenure and that almost half of police officers are connected in misconduct ties in broader networks of misconduct. We also find that certain dyadic factors, especially seniority and race, strongly predict network ties and the incidence of group misconduct. Our results provide actionable information regarding possible ways to leverage the co-complaint network structure to reduce misconduct.
+

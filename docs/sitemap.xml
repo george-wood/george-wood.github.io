@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://george-wood.github.io/index.html</loc>
-    <lastmod>2023-07-24T08:44:05.621Z</lastmod>
+    <lastmod>2023-07-27T15:55:45.600Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/about.html</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://george-wood.github.io/research/research.html</loc>
-    <lastmod>2023-07-24T08:42:23.857Z</lastmod>
+    <lastmod>2023-07-27T15:55:23.713Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/about_me.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://george-wood.github.io/rpkg/rpkg.html</loc>
-    <lastmod>2023-07-24T08:42:26.981Z</lastmod>
+    <lastmod>2023-07-27T15:54:21.492Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/teaching/'6+3[rds/index.html</loc>
@@ -31,5 +31,13 @@
   <url>
     <loc>https://george-wood.github.io/teaching/ds4e/index.html</loc>
     <lastmod>2023-07-24T08:27:33.937Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/research/nhb2019/index.html</loc>
+    <lastmod>2023-07-27T15:55:23.245Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/research/ssm2023/index.html</loc>
+    <lastmod>2023-07-27T15:54:13.146Z</lastmod>
   </url>
 </urlset>

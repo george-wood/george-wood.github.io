@@ -7,7 +7,7 @@ listing:
       subtitle: "Author"
       description: "Journal"
     date-format: "YYYY"
-    max-description-length: 500
+    max-description-length: 1500
     image-height: 140px
     fields: [title, subtitle, description, date]
     contents: 
@@ -19,12 +19,13 @@ listing:
       - nhb2019
       - socius2019
       - sn2017
-    type: table
+    type: grid
+    grid-columns: 1
+    grid-item-border: true
     filter-ui: true
     sort: "date desc"
     sort-ui: [date, title, author]
     categories: true
-    grid-item-border: false
 ---
 
 
