@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -167,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-pubs">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-pubs">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
@@ -180,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
         </option>
-         <option value="listing-title-sort" data-direction="asc">
+         <option value="listing-title" data-direction="asc">
           Title
         </option>
      </select>
@@ -190,140 +190,184 @@ ul.task-list li input[type="checkbox"] {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-Author
-</th>
-<th>
-Journal
-</th>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="gun violence,intervention" data-listing-date-sort="1685577600000" data-listing-file-modified-sort="1690188278328" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="We know what's going on in our community: A qualitative analysis identifying community assets that deter gun violence" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/ssm2023/index.html" class="title listing-title">We know what’s going on in our community: A qualitative analysis identifying community assets that deter gun violence</a>
-</td>
-<td>
-<span class="listing-subtitle">A. Parsons, T. D. Harvey, S. D. Andrade, N. Horton, L. Brinkley-Rubenstein, G. Wood, L. W. Holaday, C. Riley, V. T. Spell, A. V. Papachristos, E. A. Wang, B. Roy</span>
-</td>
-<td>
-<span class="listing-description">SSM</span>
-</td>
-<td>
-<span class="listing-date">2023</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="gun violence,intervention" data-listing-date-sort="1602288000000" data-listing-file-modified-sort="1690188278292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Building community resilience to prevent and mitigate community impact of gun violence: conceptual framework and intervention design" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/bmj2020/index.html" class="title listing-title">Building community resilience to prevent and mitigate community impact of gun violence: conceptual framework and intervention design</a>
-</td>
-<td>
-<span class="listing-subtitle">E. A. Wang, C. Riley, G. Wood, A. Greene, N. Horton, M. Williams, P. Violano, R. M. Brase, L. Brinkley-Rubinstein, A. V. Papachristos, B. Roy</span>
-</td>
-<td>
-<span class="listing-description">BMJ Open</span>
-</td>
-<td>
-<span class="listing-date">2020</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="causal inference,policing,fairness,criminal justice" data-listing-date-sort="1602115200000" data-listing-file-modified-sort="1690188278332" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Revised findings: Procedural justice training reduces police use of force and complaints against officers" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/sx2021/index.html" class="title listing-title">Revised findings: Procedural justice training reduces police use of force and complaints against officers</a>
-</td>
-<td>
-<span class="listing-subtitle">G. Wood, T. R. Tyler, A. V. Papachristos, J. Roth, P. H. C. Sant’Anna</span>
-</td>
-<td>
-<span class="listing-description">SocArXiv</span>
-</td>
-<td>
-<span class="listing-date">2020</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="causal inference,covid" data-listing-date-sort="1589846400000" data-listing-file-modified-sort="1690188278332" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="The Causal Effect of Social Distancing on the Spread of SARS-CoV-2" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/sx2020/index.html" class="title listing-title">The Causal Effect of Social Distancing on the Spread of SARS-CoV-2</a>
-</td>
-<td>
-<span class="listing-subtitle">P. Sharkey, G. Wood</span>
-</td>
-<td>
-<span class="listing-description">SocArXiv</span>
-</td>
-<td>
-<span class="listing-date">2020</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="causal inference,policing,fairness,criminal justice" data-listing-date-sort="1587340800000" data-listing-file-modified-sort="1690188278296" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Procedural justice training reduces police use of force and complaints against officers" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/pnas2020/index.html" class="title listing-title">Procedural justice training reduces police use of force and complaints against officers</a>
-</td>
-<td>
-<span class="listing-subtitle">G. Wood, T. R. Tyler, A. V. Papachristos</span>
-</td>
-<td>
-<span class="listing-description">Proceedings of the National Academy of Sciences</span>
-</td>
-<td>
-<span class="listing-date">2020</span>
-</td>
-</tr>
-<tr data-index="5" data-categories="policing,criminal justice,networks" data-listing-date-sort="1570665600000" data-listing-file-modified-sort="1690188278312" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="The network structure of police misconduct" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/socius2019/index.html" class="title listing-title">The network structure of police misconduct</a>
-</td>
-<td>
-<span class="listing-subtitle">G. Wood, D. Roithmayr, A. V. Papachristos</span>
-</td>
-<td>
-<span class="listing-description">Socius</span>
-</td>
-<td>
-<span class="listing-date">2019</span>
-</td>
-</tr>
-<tr data-index="6" data-categories="causal inference,networks,gun violence,intervention" data-listing-date-sort="1566172800000" data-listing-file-modified-sort="1690188278292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Reducing gunshot victimization in high-risk social networks through direct and spillover effects" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/nhb2019/index.html" class="title listing-title">Reducing gunshot victimization in high-risk social networks through direct and spillover effects</a>
-</td>
-<td>
-<span class="listing-subtitle">G. Wood, A. V. Papachristos</span>
-</td>
-<td>
-<span class="listing-description">Nature Human Behaviour</span>
-</td>
-<td>
-<span class="listing-date">2019</span>
-</td>
-</tr>
-<tr data-index="7" data-categories="networks" data-listing-date-sort="1483228800000" data-listing-file-modified-sort="1690188278304" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="The structure and vulnerability of a drug trafficking collaboration network" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/sn2017/index.html" class="title listing-title">The structure and vulnerability of a drug trafficking collaboration network</a>
-</td>
-<td>
-<span class="listing-subtitle">G. Wood</span>
-</td>
-<td>
-<span class="listing-description">Social Networks</span>
-</td>
-<td>
-<span class="listing-date">2017</span>
-</td>
-</tr>
-</tbody>
-
-</table>
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-categories="gun violence,intervention" data-listing-date-sort="1685577600000" data-listing-file-modified-sort="1690473378440" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../research/ssm2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<strong>We know what’s going on in our community: A qualitative analysis identifying community assets that deter gun violence</strong>
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>A. Parsons, T. D. Harvey, S. D. Andrade, N. Horton, L. Brinkley-Rubenstein, G. Wood, L. W. Holaday, C. Riley, V. T. Spell, A. V. Papachristos, E. A. Wang, and B. Roy ⸱ <em>SSM</em></p>
+</div>
+<div class="card-text listing-description">
+<p>The USA has the highest rate of community gun violence of any developed democracy. There is an urgent need to develop feasible, scalable and community-led interventions that mitigate incident gun violence and its associated health impacts. Our community-academic research team received National Institutes of Health funding to design a community-led intervention that mitigates the health impacts of living in communities with high rates of gun violence.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="gun violence,intervention" data-listing-date-sort="1602288000000" data-listing-file-modified-sort="1690473378396" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../research/bmj2020/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<strong>Building community resilience to prevent and mitigate community impact of gun violence: conceptual framework and intervention design</strong>
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>E. A. Wang, C. Riley, G. Wood, A. Greene, N. Horton, M. Williams, P. Violano, R. M. Brase, L. Brinkley-Rubinstein, A. V. Papachristos, and B. Roy ⸱ <em>BMJ Open</em></p>
+</div>
+<div class="card-text listing-description">
+<p>The USA has the highest rate of community gun violence of any developed democracy. There is an urgent need to develop feasible, scalable and community-led interventions that mitigate incident gun violence and its associated health impacts. Our community-academic research team received National Institutes of Health funding to design a community-led intervention that mitigates the health impacts of living in communities with high rates of gun violence.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="causal inference,policing,fairness,criminal justice" data-listing-date-sort="1602115200000" data-listing-file-modified-sort="1690473378440" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../research/sx2021/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<strong>Revised findings: Procedural justice training reduces police use of force and complaints against officers</strong>
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>G. Wood, T. R. Tyler, A. V. Papachristos, J. Roth, and P. H. C. Sant’Anna ⸱ <em>SocArXiv</em></p>
+</div>
+<div class="card-text listing-description">
+<p>Wood et al.&nbsp;(2020) studied the rollout of a procedural justice training program in the Chicago Police Department and found large and statistically significant impacts on complaints and sustained complaints against police officers and police use of force. This document describes a subtle statistical problem that led the magnitude of those estimates to be inflated. We then re-analyze the data using a methodology that corrects for this problem. The re-analysis provides less strong conclusions about the effectiveness of the training than the original study: although the point estimates for most outcomes and specifications are negative and of a meaningful magnitude, the confidence intervals typically include zero or very small effects. On the whole, we interpret the data as providing suggestive evidence that procedural justice training reduced the use of force, but no statistically significant evidence for a reduction in complaints or sustained complaints.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="causal inference,covid" data-listing-date-sort="1589846400000" data-listing-file-modified-sort="1690473378440" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../research/sx2020/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<strong>The Causal Effect of Social Distancing on the Spread of SARS-CoV-2</strong>
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>P. Sharkey and G. Wood ⸱ <em>SocArXiv</em></p>
+</div>
+<div class="card-text listing-description">
+<p>To what degree does social distancing have a causal effect on the spread of SARS-CoV-2? To generate causal evidence, we show that week to week changes in weather conditions provided a natural experiment that altered daily travel and movement outside the home, and thus affected social distancing in the first several weeks when Covid-19 began to spread in many U.S. counties. Using aggregated mobile phone location data and leveraging changes in social distancing driven by weekly weather conditions, we provide the first causal evidence on the effect of social distancing on the spread of SARS-CoV-2. Results show that a 1 percent increase in distance traveled leads to an 8.1 percent increase in new cases per capita in the following week, and a 1 percent increase in non-essential visits leads to a 6.9 percent increase in new cases per capita in the following week. Results are stronger in densely populated counties and close to zero in less densely populated counties.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="causal inference,policing,fairness,criminal justice" data-listing-date-sort="1587340800000" data-listing-file-modified-sort="1690473378404" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../research/pnas2020/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<strong>Procedural justice training reduces police use of force and complaints against officers</strong>
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>G. Wood, T. R. Tyler, and A. V. Papachristos ⸱ <em>Proceedings of the National Academy of Sciences</em></p>
+</div>
+<div class="card-text listing-description">
+<p>Existing research shows that distrust of the police is widespread and consequential for public safety. However, there is a shortage of interventions that demonstrably reduce negative police interactions with the communities they serve. A training program in Chicago attempted to encourage 8,480 officers to adopt procedural justice policing strategies. These strategies emphasize respect, neutrality, and transparency in the exercise of authority, while providing opportunities for civilians to explain their side of events. We find that training reduced complaints against the police by 10.0% and reduced the use of force against civilians by 6.4% over 2 y. These findings affirm the feasibility of changing the command and control style of policing which has been associated with popular distrust and the use of force, through a broad training program built around the concept of procedurally just policing.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="policing,criminal justice,networks" data-listing-date-sort="1570665600000" data-listing-file-modified-sort="1690473378420" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../research/socius2019/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<strong>The network structure of police misconduct</strong>
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>G. Wood, D. Roithmayr, and A. V. Papachristos ⸱ <em>Socius</em></p>
+</div>
+<div class="card-text listing-description">
+<p>Conventional explanations of police misconduct generally adopt a microlevel focus on deviant officers or a macrolevel focus on the top-down organization of police departments. Between these levels are social networks of misconduct. This study recreates these networks using data on 16,503 complaints and 15,811 police officers over a six-year period in Chicago. We examine individual-level factors associated with receiving a complaint, the basic properties of these misconduct networks, and factors related to officer co-naming in complaints. We find that the incidence of police misconduct is associated with attributes including race, age, and tenure and that almost half of police officers are connected in misconduct ties in broader networks of misconduct. We also find that certain dyadic factors, especially seniority and race, strongly predict network ties and the incidence of group misconduct. Our results provide actionable information regarding possible ways to leverage the co-complaint network structure to reduce misconduct.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="causal inference,networks,gun violence,intervention" data-listing-date-sort="1566172800000" data-listing-file-modified-sort="1690473378396" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../research/nhb2019/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<strong>Reducing gunshot victimization in high-risk social networks through direct and spillover effects</strong>
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>G. Wood and A. V. Papachristos ⸱ <em>Nature Human Behaviour</em></p>
+</div>
+<div class="card-text listing-description">
+<p>More than 60,000 people are victimized by gun violence each year in the United States. A large share of victims cluster in bounded and identifiable social networks. Despite a growing number of violence reduction programmes that leverage networks to broaden programmatic effects, there is little evidence that reductions in victimization are achieved through spillover effects on the peers of participants. This study estimates the direct and spillover effects of a gun violence field intervention in Chicago. Using a quasi-experimental design, we test whether a desistance-based programme reduced gunshot victimization among 2,349 participants. The study uses co-arrest network data to further test spillover effects on 6,132 non-participants. Direct effects were associated with a 3.2-percentage point reduction in victimization among seeds over two years, while potential spillover was associated with a 1.5-percentage point reduction among peers. Findings suggest that peer influence and the structure of networks might be leveraged to amplify gun violence reduction efforts.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="networks" data-listing-date-sort="1483228800000" data-listing-file-modified-sort="1690473378412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../research/sn2017/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<strong>The structure and vulnerability of a drug trafficking collaboration network</strong>
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>G. Wood ⸱ <em>Social Networks</em></p>
+</div>
+<div class="card-text listing-description">
+<p>Prior research has established that collaboration networks exhibit heavy-tailed degree distributions, assortative degree mixing, and large clustering coefficients. Using court record data, we assess these properties in a collaboration network among heroin traffickers. Consistent with prior research, we find an exponential degree distribution and strong local clustering. However, the traffickers mix dissortatively by degree rather than assortatively. Using a graph sampling method, we show that a consequence of dissortative mixing is that targeted vertex removals have a greater impact on the connectivity and cohesion of the trafficking network. We also note the importance of degree mixing for characterizing and identifying topological weaknesses.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2017
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
