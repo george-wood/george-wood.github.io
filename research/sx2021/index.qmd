@@ -1,6 +1,6 @@
 ---
 title: |
-  **Revised findings: Procedural justice training reduces police use of force and complaints against officers**
+  **Revised Findings: Procedural Justice Training Reduces Police use of Force and Complaints Against Officers**
 subtitle: |
   G. Wood, T. R. Tyler, A. V. Papachristos, J. Roth, and P. H. C. Sant'Anna ⸱ *SocArXiv*
 description: |

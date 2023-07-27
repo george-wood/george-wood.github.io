@@ -1,6 +1,6 @@
 ---
 title: |
-  **Procedural justice training reduces police use of force and complaints against officers**
+  **Procedural Justice Training Reduces Police use of Force and Complaints Against Officers**
 subtitle: |
   G. Wood, T. R. Tyler, and A. V. Papachristos ⸱ *Proceedings of the National Academy of Sciences*
 description: |

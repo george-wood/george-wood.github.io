@@ -1,6 +1,6 @@
 ---
 title: |
-  **We know what's going on in our community: A qualitative analysis identifying community assets that deter gun violence**
+  **We Know What's Going on in Our Community: A Qualitative Analysis Identifying Community Assets that Deter Gun Violence**
 subtitle: |
   A. Parsons, T. D. Harvey, S. D. Andrade, N. Horton, L. Brinkley-Rubenstein, G. Wood, L. W. Holaday, C. Riley, V. T. Spell, A. V. Papachristos, E. A. Wang, and B. Roy ⸱ *SSM*
 description: |

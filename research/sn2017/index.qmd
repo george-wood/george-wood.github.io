@@ -1,6 +1,6 @@
 ---
 title: |
-  **The structure and vulnerability of a drug trafficking collaboration network**
+  **The Structure and Vulnerability of a Drug Trafficking Collaboration Network**
 subtitle: |
   G. Wood ⸱ *Social Networks*
 description: |

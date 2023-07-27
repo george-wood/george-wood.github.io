@@ -1,6 +1,6 @@
 ---
 title: |
-  **Reducing gunshot victimization in high-risk social networks through direct and spillover effects**
+  **Reducing Gunshot Victimization in High-Risk Social Networks through Direct and Spillover Effects**
 subtitle: |
   G. Wood and A. V. Papachristos ⸱ *Nature Human Behaviour*
 description: |
