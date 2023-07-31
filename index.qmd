@@ -15,7 +15,7 @@ about:
 ---
 
 ::: {#hero-heading}
-My research focuses on fairness, inequality, and discrimination in criminal justice, with a particular interest in policing. I also work on program evaluation. I've studied the effects of [procedural justice training](https://www.pnas.org/doi/10.1073/pnas.1920671117) on police behaviour and the impact of [violence reduction programs](https://www.nature.com/articles/s41562-019-0688-1) on gunshot victimization. All of my work draws heavily on causal inference in observational settings.
+My research focuses on fairness, inequality, and discrimination, with a particular interest in policing. I also work on program evaluation. I've studied the effects of [procedural justice training](https://www.pnas.org/doi/10.1073/pnas.1920671117) on police behaviour and the impact of [violence reduction programs](https://www.nature.com/articles/s41562-019-0688-1) on gunshot victimization. All of my work draws heavily on causal inference in observational settings.
 
 Previously, I was Moore-Sloan Faculty Fellow in the [Center for Data Science](https://cds.nyu.edu/) at New York University. Before joining NYU, I held postdoctoral positions at Northwestern University and Yale University. In 2017, I completed a PhD in Sociology at [Nuffield College, University of Oxford](https://www.nuffield.ox.ac.uk/).
 
