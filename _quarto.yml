@@ -8,6 +8,7 @@ website:
   site-url: https://george-wood.github.io
   repo-url: https://github.com/george-wood/george-wood.github.io
   repo-actions: []
+  google-analytics: "G-LY905F0SQ6"
   
   page-footer: 
     left: "&copy; Copyright 2023, George Wood"
