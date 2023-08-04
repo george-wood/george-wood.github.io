@@ -2,74 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://george-wood.github.io/about.html</loc>
-    <lastmod>2023-07-31T10:36:24.924Z</lastmod>
-  </url>
-  <url>
-    <loc>https://george-wood.github.io/research/bmj2020/index.html</loc>
-    <lastmod>2023-07-31T10:36:23.908Z</lastmod>
-  </url>
-  <url>
-    <loc>https://george-wood.github.io/research/nhb2019/index.html</loc>
-    <lastmod>2023-07-31T10:36:23.112Z</lastmod>
-  </url>
-  <url>
-    <loc>https://george-wood.github.io/research/research.html</loc>
-    <lastmod>2023-07-31T10:36:22.220Z</lastmod>
-  </url>
-  <url>
-    <loc>https://george-wood.github.io/research/sx2020/index.html</loc>
-    <lastmod>2023-07-31T10:36:20.196Z</lastmod>
-  </url>
-  <url>
-    <loc>https://george-wood.github.io/research/sn2017/index.html</loc>
-    <lastmod>2023-07-31T10:36:19.304Z</lastmod>
-  </url>
-  <url>
-    <loc>https://george-wood.github.io/rpkg/folk/index.html</loc>
-    <lastmod>2023-07-31T10:36:18.512Z</lastmod>
-  </url>
-  <url>
-    <loc>https://george-wood.github.io/teaching/teaching.html</loc>
-    <lastmod>2023-07-31T10:36:17.748Z</lastmod>
-  </url>
-  <url>
-    <loc>https://george-wood.github.io/teaching/ds4e/index.html</loc>
-    <lastmod>2023-07-31T10:36:16.868Z</lastmod>
-  </url>
-  <url>
-    <loc>https://george-wood.github.io/index.html</loc>
-    <lastmod>2023-07-31T10:36:16.028Z</lastmod>
-  </url>
-  <url>
-    <loc>https://george-wood.github.io/teaching/rds/index.html</loc>
-    <lastmod>2023-07-31T10:36:17.304Z</lastmod>
+    <lastmod>2023-08-04T09:42:15.136Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/blog/blog.html</loc>
-    <lastmod>2023-07-31T10:36:18.136Z</lastmod>
+    <lastmod>2023-08-04T09:42:14.224Z</lastmod>
   </url>
   <url>
-    <loc>https://george-wood.github.io/rpkg/rpkg.html</loc>
-    <lastmod>2023-07-31T10:36:18.888Z</lastmod>
+    <loc>https://george-wood.github.io/rpkg/folk/index.html</loc>
+    <lastmod>2023-08-04T09:42:13.452Z</lastmod>
   </url>
   <url>
-    <loc>https://george-wood.github.io/research/socius2019/index.html</loc>
-    <lastmod>2023-07-31T10:36:19.740Z</lastmod>
+    <loc>https://george-wood.github.io/teaching/rds/index.html</loc>
+    <lastmod>2023-08-04T09:42:12.708Z</lastmod>
   </url>
   <url>
-    <loc>https://george-wood.github.io/research/sx2021/index.html</loc>
-    <lastmod>2023-07-31T10:36:20.640Z</lastmod>
+    <loc>https://george-wood.github.io/index.html</loc>
+    <lastmod>2023-08-04T09:42:11.816Z</lastmod>
   </url>
   <url>
-    <loc>https://george-wood.github.io/research/pnas2020/index.html</loc>
-    <lastmod>2023-07-31T10:36:22.668Z</lastmod>
+    <loc>https://george-wood.github.io/research/bmj2020/index.html</loc>
+    <lastmod>2023-08-04T09:42:10.972Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/research/sx2020/index.html</loc>
+    <lastmod>2023-08-04T09:42:10.096Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/research/ssm2023/index.html</loc>
-    <lastmod>2023-07-31T10:36:23.512Z</lastmod>
+    <lastmod>2023-08-04T09:42:09.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/research/sn2017/index.html</loc>
+    <lastmod>2023-08-04T09:42:07.188Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/research/nhb2019/index.html</loc>
+    <lastmod>2023-08-04T09:42:06.364Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/research/research.html</loc>
+    <lastmod>2023-08-04T09:42:08.700Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/research/sx2021/index.html</loc>
+    <lastmod>2023-08-04T09:42:09.608Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/research/pnas2020/index.html</loc>
+    <lastmod>2023-08-04T09:42:10.556Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/research/socius2019/index.html</loc>
+    <lastmod>2023-08-04T09:42:11.412Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/teaching/teaching.html</loc>
+    <lastmod>2023-08-04T09:42:12.304Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/teaching/ds4e/index.html</loc>
+    <lastmod>2023-08-04T09:42:13.072Z</lastmod>
+  </url>
+  <url>
+    <loc>https://george-wood.github.io/rpkg/rpkg.html</loc>
+    <lastmod>2023-08-04T09:42:13.844Z</lastmod>
   </url>
   <url>
     <loc>https://george-wood.github.io/about_me.html</loc>
-    <lastmod>2023-07-31T10:36:24.452Z</lastmod>
+    <lastmod>2023-08-04T09:42:14.684Z</lastmod>
   </url>
 </urlset>

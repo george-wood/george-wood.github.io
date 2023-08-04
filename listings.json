@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/blog/blog.html",
+    "items": []
+  },
+  {
     "listing": "/research/research.html",
     "items": [
       "/research/ssm2023/index.html",
@@ -18,10 +22,6 @@
       "/teaching/ds4e/index.html",
       "/teaching/rds/index.html"
     ]
-  },
-  {
-    "listing": "/blog/blog.html",
-    "items": []
   },
   {
     "listing": "/rpkg/rpkg.html",
