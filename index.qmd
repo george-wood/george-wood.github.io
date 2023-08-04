@@ -12,6 +12,9 @@ about:
     - icon: twitter
       text: _georgewood
       href: https://twitter.com/_georgewood
+    - icon: envelope
+      text: Email
+      href: mailto:georgebwood@gmail.com
 ---
 
 ::: {#hero-heading}
