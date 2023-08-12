@@ -7,10 +7,10 @@ about:
   image-shape: round
   links:
     - icon: github
-      text: george-wood
+      text: GitHub
       href: https://github.com/george-wood
     - icon: twitter
-      text: _georgewood
+      text: Twitter
       href: https://twitter.com/_georgewood
     - icon: envelope
       text: Email
