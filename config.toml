@@ -1,0 +1,130 @@
+baseURL = 'https://gwood.me/'
+
+languageCode = 'en-us'
+title = 'George Wood'
+
+theme = 'apero'
+
+ignoreFiles = [ "\\.qmd$", "\\.ipynb$" ]
+
+googleAnalytics = "" # G-XXXXXXXXXX
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    # one of: https://xyproto.github.io/splash/docs/
+    style = "github"
+
+[imaging]
+  quality = 70
+  resampleFilter = "Lanczos"
+
+# HUGO-APERO SETTINGS ---------------------------------------------------------
+[params]
+  orgName = "George Wood"
+  orgLocal = ""
+  description = "George Wood's Personal Website"
+
+  favicon = ""
+  logo = ""
+
+  mainSections = ["blog", "projects", "pubs"]
+  navallcaps = true
+
+  # TODO: update social sharing image
+  # Default image for social sharing and search engines.
+  # Place image file in `static` folder and specify image name here.
+  sharing_image = "/img/papillons.jpg"
+  # Twitter username (without @). Used when a visitor shares your site on Twitter.
+  twitter = "_georgewood"
+
+  # use a built-in color theme
+  # one of: forest / grayscale / peach / plum /
+  #         poppy / sky / violet / water
+  theme = "peach"
+
+  # or, leave theme empty & make your own palette
+  # see docs at https://hugo-apero.netlify.app/learn/color-themes/
+  # the custom scss file must be in the assets/ folder
+  # add the filename name here, without extension
+  # to use hex colors instead of named tachyons colors, include "hex" in filename
+  custom_theme = "hex-colors"
+
+  # use an embedded font
+  customtextFontFamily = "Atkinson Hyperlegible"
+  customheadingFontFamily = "Metropolis"
+
+  # or choose a system font stack
+  textFontFamily = "sans-serif"
+  headingFontFamily = "serif"
+
+  [params.utterances]
+    use_utterances = true
+    repo_name = "george-wood/george-wood.github.io"
+    issue_term = "title" # url, pathname, or title
+    theme = "github-light"
+    label = "comments :crystal_ball:"
+
+# NAVBAR ----------------------------------------------------------------------
+[menu]
+
+  [[menu.header]]
+    name = "Publications"
+    title = "Publications"
+    url = "/pubs/"
+    weight = 1
+  [[menu.header]]
+    name = "Projects"
+    title = "My project portfolio"
+    url = "/projects/"
+    weight = 2
+  [[menu.header]]
+    name = "Contact"
+    title = "Contact"
+    url = "/contact/"
+    weight = 3
+
+  [[menu.footer]]
+    name = "License"
+    title = "License"
+    url = "/license/"
+    weight = 1
+
+[[params.social]]
+    icon      = "github"
+    icon_pack = "fab"
+    url       = "https://github.com/george-wood"
+[[params.social]]
+    icon      = "linkedin"
+    icon_pack = "fab"
+    url       = "https://www.linkedin.com/in/georgewood/"
+[[params.social]]
+    icon      = "google-scholar"
+    icon_pack = "ai"
+    url       = "https://scholar.google.com/citations?user=guIoidMAAAAJ&hl=en"
+
+# PRIVACY CONTENT -------------------------------------------------------------
+# see https://gohugo.io/about/hugo-and-gdpr/
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = false
+    anonymizeIP = true
+    respectDoNotTrack = true
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

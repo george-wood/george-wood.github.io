@@ -1,7 +1,11 @@
-*.DS_Store
-.quarto/
-/.quarto/
+# hugo files
+/resources/_gen/
+.hugo_build.lock
+
+# R stuff
 .Rproj.user
-.Rproj.user/
+/.quarto/
 .Rhistory
-*.icloud
+
+# OS
+.DS_Store

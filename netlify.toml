@@ -1,0 +1,28 @@
+[build] 
+  publish = "public"
+  command = "hugo"
+
+[context.production.environment]
+  HUGO_VERSION = "0.103.1"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.103.1"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/cv"
+  to = "https://cedricbatailler-cv.netlify.app/"
+  status = 200
+
+[[redirects]]
+  from = "/JSmediation"
+  to = "https://jsmediation.cedricbatailler.me/"
+  status = 301
+
+[[redirects]]
+  from = "/scholar"
+  to = "https://scholar.google.com/citations?user=3KAcQowAAAAJ"
+  status = 301
