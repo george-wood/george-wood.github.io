@@ -1,6 +1,6 @@
 ---
 title: Projects
-description: "A collection of software and educational resources that contributed to or created."
+description: "A collection of software and educational resources that I've contributed to or created."
 author: ""
 show_post_thumbnail: true
 show_author_byline: true

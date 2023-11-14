@@ -1,7 +1,7 @@
 ---
 title: Folk
 summary: |
-  Folk provides easy access to datasets that can be used to benchmark machine learning algorithms. The    goal of Folk is to facilitate and encourage work on fair machine learning among R users.
+  Folk is an R package that provides easy access to datasets that can be used to benchmark machine learning algorithms. The goal of Folk is to facilitate and encourage work on fair machine learning among R users.
 date: 2023-11-14
 categories:
   - R package
