@@ -27,8 +27,7 @@ googleAnalytics = "G-LY905F0SQ6"
   orgLocal = ""
   description = "George Wood's Personal Website"
 
-  favicon = ""
-  logo = ""
+  favicon = "/img/pear.png"
 
   mainSections = ["blog", "projects", "pubs"]
   navallcaps = true
@@ -36,7 +35,7 @@ googleAnalytics = "G-LY905F0SQ6"
   # TODO: update social sharing image
   # Default image for social sharing and search engines.
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/pear.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "_georgewood"
 
@@ -99,7 +98,7 @@ googleAnalytics = "G-LY905F0SQ6"
 [[params.social]]
     icon      = "linkedin"
     icon_pack = "fab"
-    url       = "https://www.linkedin.com/in/george-wood-72a262a9/"
+    url       = "https://www.linkedin.com/in/ge0rgew00d/"
 [[params.social]]
     icon      = "google-scholar"
     icon_pack = "ai"
