@@ -7,7 +7,7 @@ theme = 'apero'
 
 ignoreFiles = [ "\\.qmd$", "\\.ipynb$" ]
 
-googleAnalytics = "" # G-XXXXXXXXXX
+googleAnalytics = "G-LY905F0SQ6"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
