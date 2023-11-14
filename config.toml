@@ -3,7 +3,8 @@ baseURL = 'https://gwood.me/'
 languageCode = 'en-us'
 title = 'George Wood'
 
-theme = 'apero'
+theme = 'hugo-apero'
+enableEmoji = true
 
 ignoreFiles = [ "\\.qmd$", "\\.ipynb$" ]
 
@@ -31,6 +32,8 @@ googleAnalytics = "G-LY905F0SQ6"
 
   mainSections = ["blog", "projects", "pubs"]
   navallcaps = true
+  socialInHeader = false
+  socialInFooter = true
 
   # TODO: update social sharing image
   # Default image for social sharing and search engines.
@@ -49,15 +52,15 @@ googleAnalytics = "G-LY905F0SQ6"
   # the custom scss file must be in the assets/ folder
   # add the filename name here, without extension
   # to use hex colors instead of named tachyons colors, include "hex" in filename
-  custom_theme = "hex-colors"
+  custom_theme = ""
 
   # use an embedded font
-  customtextFontFamily = "Atkinson Hyperlegible"
-  customheadingFontFamily = "Metropolis"
+  customtextFontFamily = "Atkinson Hyperlegible" # "Atkinson Hyperlegible"
+  customheadingFontFamily = "EB Garamond" # "Fraunces", "Bitter", "EB Garamond"
 
   # or choose a system font stack
   textFontFamily = "sans-serif"
-  headingFontFamily = "serif"
+  headingFontFamily = "serif" # "serif"
 
   [params.utterances]
     use_utterances = true
