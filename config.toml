@@ -3,7 +3,7 @@ baseURL = 'https://gwood.me/'
 languageCode = 'en-us'
 title = 'George Wood'
 
-theme = 'hugo-apero'
+theme = "hugo-apero"
 enableEmoji = true
 
 ignoreFiles = [ "\\.qmd$", "\\.ipynb$" ]
