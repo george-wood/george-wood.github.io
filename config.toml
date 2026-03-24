@@ -78,8 +78,8 @@ googleAnalytics = "G-LY905F0SQ6"
     url = "/pubs/"
     weight = 1
   [[menu.header]]
-    name = "Projects"
-    title = "My project portfolio"
+    name = "Software & Resources"
+    title = "Software and Resources"
     url = "/projects/"
     weight = 2
   [[menu.header]]

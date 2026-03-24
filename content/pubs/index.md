@@ -10,6 +10,19 @@ Please [contact me](/contact/) if you can't access a paper.
 
 ---
 
+### Working Papers & Under Review
+
+Donahue, Sam, **George Wood**, and Gerard Torrats-Espinosa. Racial Homophily and The Diversity Paradox in
+Policing.
+
+**Wood, George**. Soldiers on the Streets: The Effect of Military Experience on Police Use of Force.
+
+Torrats-Espinosa, Gerard, Timothy Ittner, Patrick Sharkey, and **George Wood**. Unexpected Local Declines in Police Presence Do Not Increase Crime Rates.
+
+---
+
+### Peer-Reviewed
+
 Parsons, Allison, Tyler D. Harvey, Stephane D. Andrade, Nadine Horton, Lauren Brinkley-Rubenstein, **George Wood**, et al. (2023). We know what’s going on in our community: A qualitative analysis identifying community assets that deter gun violence. _SSM - Qualitative Research in Health_.<br>
 [10.1016/j.ssmqr.2023.100258](https://doi.org/10.1016/j.ssmqr.2023.100258)<br>
 [:page_facing_up:](pdf/community_assets.pdf)

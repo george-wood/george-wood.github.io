@@ -1,8 +1,8 @@
 ---
-title: Hi there
+title: Contact
 name: Contact Us Form
-description: "Contact me about opportunities to work together, mentorship requests, or research."
-date: 2023-11-14
+description: ""
+date: 2026-03-24
 draft: false
 url: contact
 type: form
