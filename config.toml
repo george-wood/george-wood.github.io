@@ -55,8 +55,8 @@ googleAnalytics = "G-LY905F0SQ6"
   custom_theme = ""
 
   # use an embedded font
-  customtextFontFamily = "Atkinson Hyperlegible" # "Atkinson Hyperlegible"
-  customheadingFontFamily = "EB Garamond" # "Fraunces", "Bitter", "EB Garamond"
+  customtextFontFamily = "Crimson Pro"
+  customheadingFontFamily = "Crimson Pro"
 
   # or choose a system font stack
   textFontFamily = "sans-serif"
