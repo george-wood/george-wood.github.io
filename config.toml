@@ -33,7 +33,7 @@ googleAnalytics = "G-LY905F0SQ6"
   mainSections = ["blog", "projects", "pubs"]
   navallcaps = true
   socialInHeader = false
-  socialInFooter = true
+  socialInFooter = false
 
   # TODO: update social sharing image
   # Default image for social sharing and search engines.
