@@ -45,7 +45,7 @@ googleAnalytics = "G-LY905F0SQ6"
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water
-  theme = "peach"
+  theme = "sky"
 
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/learn/color-themes/
@@ -119,7 +119,7 @@ googleAnalytics = "G-LY905F0SQ6"
   [privacy.instagram]
     disable = false
     simple = true
-  [privacy.twitter]
+  [privacy.x]
     disable = false
     enableDNT = true
     simple = false
