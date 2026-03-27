@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{ $caller := . }}
+<main class="page-main pa4" role="main">
+  <section class="project-intro mw7 center mb5">
+    <h2 class="f2 f1-ns lh-solid fw4 mb2">{{ .Title }}</h2>
+    {{ with .Description }}<p class="f4 lh-copy mt2">{{ . }}</p>{{ end }}
+  </section>
+  <section class="project-list mw7 center">
+    {{ $pages := (where .RegularPagesRecursive "Type" "project") }}
+    {{ range $pages }}
+      {{ $page := . }}
+      {{ $images := $page.Resources.ByType "image" }}
+      {{ $hex := $images.GetMatch "*hex*" }}
+      {{ $leaf := $images.GetMatch "*feature*" }}
+      {{ $thumbnail := cond (ne $hex nil) $hex $leaf }}
+      <article class="project-card flex flex-row-ns items-start mb5 pb5 bb b--light-gray">
+        {{ if $thumbnail }}
+        <a href="{{ $page.RelPermalink }}" class="project-card-img w-40-ns mr4-ns mb3 mb0-ns flex-shrink-0 db overflow-hidden br2">
+          <img src="{{ $thumbnail.RelPermalink | absURL }}" class="w-100 db" alt="{{ $page.Title }}"/>
+        </a>
+        {{ end }}
+        <div class="flex-auto">
+          {{ range $page.GetTerms "categories" }}
+          <span class="project-badge">{{ .LinkTitle }}</span>
+          {{ end }}
+          <h3 class="f3 fw4 mt2 mb2 lh-title">
+            <a href="{{ $page.RelPermalink }}" class="link dim dark-gray">{{ $page.Title }}</a>
+          </h3>
+          {{ $summary := cond (ne $page.Params.excerpt nil) $page.Params.excerpt $page.Summary }}
+          {{ with $summary }}
+          <p class="f4 lh-copy mt0 mb3 measure-wide">{{ . | markdownify | emojify }}</p>
+          {{ end }}
+          {{ if $page.Params.links }}
+          <footer>
+            {{ partial "shared/btn-links.html" $page }}
+          </footer>
+          {{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </section>
+</main>
+{{ end }}
