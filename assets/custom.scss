@@ -1,1 +1,37 @@
 // Override this file to add your own SCSS styling.
+
+// Match landing page font size (f4 = 1.25rem) for body text on
+// Publications and Software & Resources pages
+.post-body p {
+  font-size: 1.25rem;
+}
+
+// Project listing page — horizontal card layout
+.project-card-img {
+  overflow: hidden;
+
+  img {
+    transition: transform 0.3s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.04);
+  }
+}
+
+.project-card:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.project-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.65rem;
+  border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0.06);
+  margin-bottom: 0.35rem;
+}
