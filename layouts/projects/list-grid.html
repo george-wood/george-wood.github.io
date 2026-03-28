@@ -13,7 +13,7 @@
       {{ $hex := $images.GetMatch "*hex*" }}
       {{ $leaf := $images.GetMatch "*feature*" }}
       {{ $thumbnail := cond (ne $hex nil) $hex $leaf }}
-      <article class="project-card flex flex-row-ns items-start mb5 pb5 bb b--light-gray">
+      <article class="project-card flex flex-column flex-row-ns items-start mb5 pb5 bb b--light-gray">
         {{ if $thumbnail }}
         <a href="{{ $page.RelPermalink }}" class="project-card-img w-40-ns mr4-ns mb3 mb0-ns flex-shrink-0 db overflow-hidden br2">
           <img src="{{ $thumbnail.RelPermalink | absURL }}" class="w-100 db" alt="{{ $page.Title }}"/>
